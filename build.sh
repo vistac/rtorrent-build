@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-export WORKING_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)/src
-
+export WORKING_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)/src"
 export LIBSIG_VERSION="3.0.3"
 export CARES_VERSION="v1.34.0"
 export CURL_VERSION="8.14.1"
